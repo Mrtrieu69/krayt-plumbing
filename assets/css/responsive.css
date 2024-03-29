@@ -1188,13 +1188,13 @@
     }
     .brand__content-images-first {
         width: 100%;
-        margin-bottom: 252px;
+        margin-bottom: 247px;
     }
     .brand__content-images-second {
         position: absolute;
-        width: 100%;
+        width: 83%;
         bottom: 0;
-        right: -298px;
+        right: -60px;
     }
 
     /* Nabor */
