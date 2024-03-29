@@ -389,16 +389,16 @@
         left: 42.8%;
     }
     .note-desktop.note-17 {
-        top: 65.44%;
-        left: 33.22%;
+        top: 72.65%;
+        left: 64.54%;
     }
     .note-desktop.note-18 {
         top: 85.71%;
         left: 58.9%;
     }
     .note-desktop.note-19 {
-        top: 53.65%;
-        left: 87.54%;
+        top: 65.44%;
+        left: 33.22%;
     }
     .note-desktop.note-20 {
         top: 20.16%;
@@ -541,12 +541,12 @@
         left: 53%;
     }
     .note-desktop.note-57 {
-        top: 29.64%;
-        left: 18.38%;
+        top: 24.64%;
+        left: 15.08%;
     }
     .note-desktop.note-58 {
-        top: 25.47%;
-        left: 57.61%;
+        top: 19.27%;
+        left: 58.41%;
     }
 
     .note-desktop.note-1 .note-desktop-text {
@@ -1567,9 +1567,6 @@
     }
 
     /* Search */
-    .search .block {
-        padding: 30px 110px;
-    }
     .search .section__head .text-main {
         max-width: 640px;
     }

@@ -100,11 +100,15 @@ figure {
     width: calc(100vw - 32px);
     max-width: 1300px;
     margin: 0 auto;
-    margin-bottom: 120px;
+    margin-bottom: 100px;
 }
 
 .section {
     margin-bottom: 80px;
+}
+
+.section:last-child {
+    margin-bottom: 0;
 }
 
 .section__head,
@@ -1501,7 +1505,6 @@ figure {
 }
 
 .promotion__content-images-first {
-    min-width: 378px;
     margin-bottom: -24px;
 }
 
@@ -1510,12 +1513,7 @@ figure {
 }
 
 .promotion__content-images-third {
-    min-width: 332px;
     margin-bottom: 24px;
-}
-
-.promotion__content-images-fourth {
-    min-width: 392px;
 }
 
 /* wishlist */
