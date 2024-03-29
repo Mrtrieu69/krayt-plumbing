@@ -9,10 +9,11 @@
     --blue-color: #1366cc;
     --black-color: #252525;
     --gray-color: #9696a8;
-    --orange-color: #ea6d41;
-    --skyblue-color: #13abcc;
+    --orange-color: #f55c33;
+    --skyblue-color: #2594fb;
     --green-color: #13cc31;
     --red-color: #cc1313;
+    --purple-color: #9764ea;
 }
 
 html {
@@ -129,8 +130,8 @@ figure {
 .section__info-right-image {
     margin: 0 -24px -24px -24px;
     transform: translateZ(0);
-    filter: drop-shadow(0px 16px 60px rgba(0, 0, 0, 0.1));
-    -webkit-filter: drop-shadow(0px 16px 60px rgba(0, 0, 0, 0.1));
+    filter: drop-shadow(0px 15px 50px rgba(0, 0, 0, 0.1));
+    -webkit-filter: drop-shadow(0px 15px 50px rgba(0, 0, 0, 0.1));
 }
 
 .section__preview {
@@ -169,8 +170,8 @@ figure {
 
 .section__content-block figure {
     transform: translateZ(0);
-    filter: drop-shadow(0px 16px 60px rgba(0, 0, 0, 0.1));
-    -webkit-filter: drop-shadow(0px 16px 60px rgba(0, 0, 0, 0.1));
+    filter: drop-shadow(0px 15px 50px rgba(0, 0, 0, 0.1));
+    -webkit-filter: drop-shadow(0px 15px 50px rgba(0, 0, 0, 0.1));
 }
 
 .block {
@@ -294,6 +295,9 @@ figure {
 
 .text-red {
     color: var(--red-color) !important;
+}
+.text-purple {
+    color: var(--purple-color) !important;
 }
 .text-black {
     color: var(--black-color) !important;
@@ -775,8 +779,8 @@ figure {
     display: flex;
     max-height: 75%;
     transform: translateZ(0);
-    filter: drop-shadow(0px 16px 60px rgba(0, 0, 0, 0.15));
-    -webkit-filter: drop-shadow(0px 16px 60px rgba(0, 0, 0, 0.15));
+    filter: drop-shadow(0px 15px 50px rgba(0, 0, 0, 0.15));
+    -webkit-filter: drop-shadow(0px 15px 50px rgba(0, 0, 0, 0.15));
     margin-left: 40px;
 }
 
@@ -866,8 +870,8 @@ figure {
 
 .important__content-block:nth-child(2) .important__content-image {
     transform: translateZ(0);
-    filter: drop-shadow(0px 16px 60px rgba(0, 0, 0, 0.15));
-    -webkit-filter: drop-shadow(0px 16px 60px rgba(0, 0, 0, 0.15));
+    filter: drop-shadow(0px 15px 50px rgba(0, 0, 0, 0.15));
+    -webkit-filter: drop-shadow(0px 15px 50px rgba(0, 0, 0, 0.15));
 }
 
 .important__content-block:nth-child(2) .important__content-image.important__content-image-mobile {
@@ -898,10 +902,12 @@ figure {
     position: relative;
 }
 
-.features__content-img.features__content-img-mobile {
+.features__content-img {
     transform: translateZ(0);
-    -webkit-filter: drop-shadow(0px 12px 60px rgba(0, 0, 0, 0.07));
-    filter: drop-shadow(0px 12px 60px rgba(0, 0, 0, 0.07));
+    -webkit-filter: drop-shadow(0px 15px 50px rgba(0, 0, 0, 0.07));
+    filter: drop-shadow(0px 15px 50px rgba(0, 0, 0, 0.07));
+}
+.features__content-img-mobile {
     margin-top: 24px;
 }
 
@@ -911,8 +917,8 @@ figure {
 
 .features--search .features__content-img {
     transform: translateZ(0);
-    -webkit-filter: drop-shadow(0px 12px 60px rgba(0, 0, 0, 0.07));
-    filter: drop-shadow(0px 12px 60px rgba(0, 0, 0, 0.07));
+    -webkit-filter: drop-shadow(0px 15px 50px rgba(0, 0, 0, 0.1));
+    filter: drop-shadow(0px 15px 50px rgba(0, 0, 0, 0.1));
     margin: 24px -24px 0 0;
 }
 
@@ -948,15 +954,15 @@ figure {
 .features-more__block:nth-child(1) .features-more__block-image {
     margin: 34px -24px -24px 0;
     transform: translateZ(0);
-    filter: drop-shadow(0px 16px 60px rgba(0, 0, 0, 0.1));
-    -webkit-filter: drop-shadow(0px 16px 60px rgba(0, 0, 0, 0.1));
+    filter: drop-shadow(0px 15px 50px rgba(0, 0, 0, 0.1));
+    -webkit-filter: drop-shadow(0px 15px 50px rgba(0, 0, 0, 0.1));
 }
 
 .features-more__block:nth-child(2) .features-more__block-image {
     margin: 22px -24px -24px -2px;
     transform: translateZ(0);
-    filter: drop-shadow(0px 16px 60px rgba(0, 0, 0, 0.1));
-    -webkit-filter: drop-shadow(0px 16px 60px rgba(0, 0, 0, 0.1));
+    filter: drop-shadow(0px 15px 50px rgba(0, 0, 0, 0.1));
+    -webkit-filter: drop-shadow(0px 15px 50px rgba(0, 0, 0, 0.1));
 }
 
 .features-more .notes-mobile {
@@ -968,7 +974,7 @@ figure {
     margin: 12px -24px -6px -12px;
 }
 
-/* priorities */
+/* variants */
 .variants .heading.lv2 {
     margin-bottom: 24px;
 }
@@ -986,6 +992,17 @@ figure {
     -ms-flex-direction: column;
     flex-direction: column;
     row-gap: 24px;
+}
+
+.variants__content {
+    margin-top: 32px;
+    position: relative;
+}
+
+.variants__content-image {
+    transform: translateZ(0);
+    filter: drop-shadow(0px 15px 50px rgba(0, 0, 0, 0.1));
+    -webkit-filter: drop-shadow(0px 15px 50px rgba(0, 0, 0, 0.1));
 }
 
 /* brand */
@@ -1019,8 +1036,8 @@ figure {
 .nabor__content-image {
     position: relative;
     transform: translateZ(0);
-    filter: drop-shadow(0px 12px 60px rgba(0, 0, 0, 0.07));
-    -webkit-filter: drop-shadow(0px 16px 60px rgba(0, 0, 0, 0.07));
+    filter: drop-shadow(0px 15px 50px rgba(0, 0, 0, 0.1));
+    -webkit-filter: drop-shadow(0px 15px 50px rgba(0, 0, 0, 0.1));
 }
 
 .nabor__content-image img {
@@ -1029,7 +1046,7 @@ figure {
 }
 
 .nabor__content {
-    padding: 16px;
+    padding: 24px;
 }
 
 .nabor-try .button.primary {
@@ -1233,14 +1250,14 @@ figure {
 
 .komplekt-virsual {
     margin-top: 80px;
-    padding: 16px;
+    padding: 24px;
 }
 
 .komplekt-virsual__content-image {
     position: relative;
     transform: translateZ(0);
-    filter: drop-shadow(0px 16px 60px rgba(0, 0, 0, 0.1));
-    -webkit-filter: drop-shadow(0px 16px 60px rgba(0, 0, 0, 0.1));
+    filter: drop-shadow(0px 15px 50px rgba(0, 0, 0, 0.1));
+    -webkit-filter: drop-shadow(0px 15px 50px rgba(0, 0, 0, 0.1));
 }
 
 .komplekt-virsual__content-image > figure {
@@ -1306,13 +1323,13 @@ figure {
 
 .catalog-display__content-image {
     transform: translateZ(0);
-    -webkit-filter: drop-shadow(0px 16px 60px rgba(0, 0, 0, 0.1));
-    filter: drop-shadow(0px 16px 60px rgba(0, 0, 0, 0.1));
+    -webkit-filter: drop-shadow(0px 15px 50px rgba(0, 0, 0, 0.1));
+    filter: drop-shadow(0px 15px 50px rgba(0, 0, 0, 0.1));
 }
 
 /* collections */
 .collections .section__info-right-image {
-    margin: -24px -24px -24px 0;
+    margin: 0 -24px -24px 0;
 }
 
 /* priorities */
@@ -1346,8 +1363,8 @@ figure {
 .main-products__image-mobile {
     margin: 24px -24px -24px 0;
     transform: translateZ(0);
-    -webkit-filter: drop-shadow(0px 16px 60px rgba(0, 0, 0, 0.1));
-    filter: drop-shadow(0px 16px 60px rgba(0, 0, 0, 0.1));
+    -webkit-filter: drop-shadow(0px 15px 50px rgba(0, 0, 0, 0.1));
+    filter: drop-shadow(0px 15px 50px rgba(0, 0, 0, 0.1));
 }
 
 .main-products.section__info {
@@ -1373,8 +1390,8 @@ figure {
 .selection__image {
     margin: 24px 0 -24px 0;
     transform: translateZ(0);
-    -webkit-filter: drop-shadow(0px 16px 60px rgba(0, 0, 0, 0.1));
-    filter: drop-shadow(0px 16px 60px rgba(0, 0, 0, 0.1));
+    -webkit-filter: drop-shadow(0px 15px 50px rgba(0, 0, 0, 0.1));
+    filter: drop-shadow(0px 15px 50px rgba(0, 0, 0, 0.1));
 }
 
 .selection__image-desktop {
@@ -1405,8 +1422,8 @@ figure {
 .acquaintance-s1__image-mobile {
     margin: 32px -24px 0 0;
     transform: translateZ(0);
-    -webkit-filter: drop-shadow(0px 16px 60px rgba(0, 0, 0, 0.1));
-    filter: drop-shadow(0px 16px 60px rgba(0, 0, 0, 0.1));
+    -webkit-filter: drop-shadow(0px 15px 50px rgba(0, 0, 0, 0.1));
+    filter: drop-shadow(0px 15px 50px rgba(0, 0, 0, 0.1));
 }
 
 .acquaintance-s1__image-mobile:last-child {
@@ -1438,13 +1455,13 @@ figure {
 .acquaintance-s2__item-image {
     margin: 28px -24px -24px 0;
     transform: translateZ(0);
-    -webkit-filter: drop-shadow(0px 16px 60px rgba(0, 0, 0, 0.1));
-    filter: drop-shadow(0px 16px 60px rgba(0, 0, 0, 0.1));
+    -webkit-filter: drop-shadow(0px 15px 50px rgba(0, 0, 0, 0.1));
+    filter: drop-shadow(0px 15px 50px rgba(0, 0, 0, 0.1));
 }
 
 .acquaintance-s3__image {
-    -webkit-filter: drop-shadow(0px 16px 60px rgba(0, 0, 0, 0.1));
-    filter: drop-shadow(0px 16px 60px rgba(0, 0, 0, 0.1));
+    -webkit-filter: drop-shadow(0px 15px 50px rgba(0, 0, 0, 0.1));
+    filter: drop-shadow(0px 15px 50px rgba(0, 0, 0, 0.1));
     -webkit-transform: rotate(7deg) translateZ(0);
     -ms-transform: rotate(7deg) translateZ(0);
     transform: rotate(7deg) translateZ(0);
@@ -1538,7 +1555,7 @@ figure {
 .manufacturer__content-images figure:nth-child(2) {
     position: absolute;
     bottom: 0;
-    left: 0;
+    left: 64px;
     min-width: 440px;
 }
 

@@ -1,4 +1,6 @@
 {
     "prettier.printWidth": 200,
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "prettier.tabWidth": 4,
+    "cSpell.language": "en,ru"
 }
